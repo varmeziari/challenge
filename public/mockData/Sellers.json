@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Tech Haven",
+    "location": "New York, USA",
+    "rating": 4.8,
+    "totalProducts": 200,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "Home Essentials",
+    "location": "Los Angeles, USA",
+    "rating": 4.5,
+    "totalProducts": 150,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "name": "Fashion Forward",
+    "location": "London, UK",
+    "rating": 4.7,
+    "totalProducts": 300,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "name": "Gadget Central",
+    "location": "San Francisco, USA",
+    "rating": 4.6,
+    "totalProducts": 120,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 5,
+    "name": "Beauty World",
+    "location": "Paris, France",
+    "rating": 4.9,
+    "totalProducts": 250,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 6,
+    "name": "Outdoor Gear",
+    "location": "Denver, USA",
+    "rating": 4.4,
+    "totalProducts": 180,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 7,
+    "name": "Book Haven",
+    "location": "Seattle, USA",
+    "rating": 4.8,
+    "totalProducts": 90,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 8,
+    "name": "Smart Home Solutions",
+    "location": "Berlin, Germany",
+    "rating": 4.6,
+    "totalProducts": 140,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 9,
+    "name": "Eco-Friendly Shop",
+    "location": "Amsterdam, Netherlands",
+    "rating": 4.7,
+    "totalProducts": 110,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 10,
+    "name": "Luxury Lifestyle",
+    "location": "Dubai, UAE",
+    "rating": 4.9,
+    "totalProducts": 230,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 11,
+    "name": "Kids Planet",
+    "location": "Toronto, Canada",
+    "rating": 4.5,
+    "totalProducts": 160,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 12,
+    "name": "Gourmet Market",
+    "location": "Rome, Italy",
+    "rating": 4.8,
+    "totalProducts": 70,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 13,
+    "name": "Pet Paradise",
+    "location": "Sydney, Australia",
+    "rating": 4.6,
+    "totalProducts": 130,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 14,
+    "name": "Office Supplies",
+    "location": "Chicago, USA",
+    "rating": 4.5,
+    "totalProducts": 100,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 15,
+    "name": "Health & Wellness",
+    "location": "Austin, USA",
+    "rating": 4.7,
+    "totalProducts": 190,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 16,
+    "name": "Vintage Finds",
+    "location": "Edinburgh, UK",
+    "rating": 4.6,
+    "totalProducts": 60,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 17,
+    "name": "Toy Kingdom",
+    "location": "Tokyo, Japan",
+    "rating": 4.9,
+    "totalProducts": 140,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 18,
+    "name": "Fitness Hub",
+    "location": "Miami, USA",
+    "rating": 4.5,
+    "totalProducts": 170,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 19,
+    "name": "Handmade Crafts",
+    "location": "Barcelona, Spain",
+    "rating": 4.8,
+    "totalProducts": 150,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 20,
+    "name": "Tech Hub",
+    "location": "Shanghai, China",
+    "rating": 4.7,
+    "totalProducts": 220,
+    "profileImageUrl": "https://via.placeholder.com/150"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "name": "Product 1",
+    "price": 29.99,
+    "description": "This is a description for Product 1.",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "Product 2",
+    "price": 19.99,
+    "description": "This is a description for Product 2.",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "name": "Product 3",
+    "price": 39.99,
+    "description": "This is a description for Product 3.",
+    "category": "Home & Kitchen",
+    "subcategory": "Kitchenware",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "name": "Product 4",
+    "price": 24.99,
+    "description": "This is a description for Product 4.",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 5,
+    "name": "Product 5",
+    "price": 49.99,
+    "description": "This is a description for Product 5.",
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 6,
+    "name": "Product 6",
+    "price": 14.99,
+    "description": "This is a description for Product 6.",
+    "category": "Sports",
+    "subcategory": "Fitness",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 7,
+    "name": "Product 7",
+    "price": 34.99,
+    "description": "This is a description for Product 7.",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 8,
+    "name": "Product 8",
+    "price": 44.99,
+    "description": "This is a description for Product 8.",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 9,
+    "name": "Product 9",
+    "price": 18.99,
+    "description": "This is a description for Product 9.",
+    "category": "Beauty",
+    "subcategory": "Hair Care",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 10,
+    "name": "Product 10",
+    "price": 25.99,
+    "description": "This is a description for Product 10.",
+    "category": "Home & Kitchen",
+    "subcategory": "Decor",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 11,
+    "name": "Product 11",
+    "price": 27.99,
+    "description": "This is a description for Product 11.",
+    "category": "Toys",
+    "subcategory": "Educational",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 12,
+    "name": "Product 12",
+    "price": 32.99,
+    "description": "This is a description for Product 12.",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 13,
+    "name": "Product 13",
+    "price": 15.99,
+    "description": "This is a description for Product 13.",
+    "category": "Fashion",
+    "subcategory": "Shoes",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 14,
+    "name": "Product 14",
+    "price": 22.99,
+    "description": "This is a description for Product 14.",
+    "category": "Sports",
+    "subcategory": "Outdoor",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 15,
+    "name": "Product 15",
+    "price": 31.99,
+    "description": "This is a description for Product 15.",
+    "category": "Books",
+    "subcategory": "Non-Fiction",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 16,
+    "name": "Product 16",
+    "price": 29.99,
+    "description": "This is a description for Product 16.",
+    "category": "Electronics",
+    "subcategory": "Tablets",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 17,
+    "name": "Product 17",
+    "price": 21.99,
+    "description": "This is a description for Product 17.",
+    "category": "Fashion",
+    "subcategory": "Accessories",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 18,
+    "name": "Product 18",
+    "price": 38.99,
+    "description": "This is a description for Product 18.",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 19,
+    "name": "Product 19",
+    "price": 41.99,
+    "description": "This is a description for Product 19.",
+    "category": "Home & Kitchen",
+    "subcategory": "Furniture",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 20,
+    "name": "Product 20",
+    "price": 37.99,
+    "description": "This is a description for Product 20.",
+    "category": "Books",
+    "subcategory": "Children's Books",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 21,
+    "name": "Product 21",
+    "price": 18.99,
+    "description": "This is a description for Product 21.",
+    "category": "Fashion",
+    "subcategory": "Jewelry",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 22,
+    "name": "Product 22",
+    "price": 29.99,
+    "description": "This is a description for Product 22.",
+    "category": "Beauty",
+    "subcategory": "Perfume",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 23,
+    "name": "Product 23",
+    "price": 32.99,
+    "description": "This is a description for Product 23.",
+    "category": "Home & Kitchen",
+    "subcategory": "Bedding",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 24,
+    "name": "Product 24",
+    "price": 27.99,
+    "description": "This is a description for Product 24.",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 25,
+    "name": "Product 25",
+    "price": 39.99,
+    "description": "This is a description for Product 25.",
+    "category": "Sports",
+    "subcategory": "Indoor",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 26,
+    "name": "Product 26",
+    "price": 42.99,
+    "description": "This is a description for Product 26.",
+    "category": "Toys",
+    "subcategory": "Action Figures",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 27,
+    "name": "Product 27",
+    "price": 16.99,
+    "description": "This is a description for Product 27.",
+    "category": "Books",
+    "subcategory": "Fantasy",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 28,
+    "name": "Product 28",
+    "price": 18.99,
+    "description": "This is a description for Product 28.",
+    "category": "Electronics",
+    "subcategory": "Drones",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 29,
+    "name": "Product 29",
+    "price": 47.99,
+    "description": "This is a description for Product 29.",
+    "category": "Beauty",
+    "subcategory": "Body Care",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 30,
+    "name": "Product 30",
+    "price": 34.99,
+    "description": "This is a description for Product 30.",
+    "category": "Home & Kitchen",
+    "subcategory": "Appliances",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 31,
+    "name": "Product 31",
+    "price": 35.99,
+    "description": "This is a description for Product 31.",
+    "category": "Fashion",
+    "subcategory": "Outerwear",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 32,
+    "name": "Product 32",
+    "price": 28.99,
+    "description": "This is a description for Product 32.",
+    "category": "Sports",
+    "subcategory": "Running",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 33,
+    "name": "Product 33",
+    "price": 33.99,
+    "description": "This is a description for Product 33.",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 34,
+    "name": "Product 34",
+    "price": 36.99,
+    "description": "This is a description for Product 34.",
+    "category": "Electronics",
+    "subcategory": "Wearables",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 35,
+    "name": "Product 35",
+    "price": 44.99,
+    "description": "This is a description for Product 35.",
+    "category": "Beauty",
+    "subcategory": "Nail Care",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 36,
+    "name": "Product 36",
+    "price": 26.99,
+    "description": "This is a description for Product 36.",
+    "category": "Home & Kitchen",
+    "subcategory": "Lighting",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 37,
+    "name": "Product 37",
+    "price": 30.99,
+    "description": "This is a description for Product 37.",
+    "category": "Fashion",
+    "subcategory": "Hats",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 38,
+    "name": "Product 38",
+    "price": 48.99,
+    "description": "This is a description for Product 38.",
+    "category": "Sports",
+    "subcategory": "Cycling",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 39,
+    "name": "Product 39",
+    "price": 22.99,
+    "description": "This is a description for Product 39.",
+    "category": "Books",
+    "subcategory": "History",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 40,
+    "name": "Product 40",
+    "price": 50.99,
+    "description": "This is a description for Product 40.",
+    "category": "Electronics",
+    "subcategory": "Gaming",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 41,
+    "name": "Product 41",
+    "price": 49.99,
+    "description": "This is a description for Product 41.",
+    "category": "Beauty",
+    "subcategory": "Sun Care",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 42,
+    "name": "Product 42",
+    "price": 42.99,
+    "description": "This is a description for Product 42.",
+    "category": "Home & Kitchen",
+    "subcategory": "Storage",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 43,
+    "name": "Product 43",
+    "price": 19.99,
+    "description": "This is a description for Product 43.",
+    "category": "Fashion",
+    "subcategory": "Bags",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 44,
+    "name": "Product 44",
+    "price": 45.99,
+    "description": "This is a description for Product 44.",
+    "category": "Sports",
+    "subcategory": "Swimming",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 45,
+    "name": "Product 45",
+    "price": 31.99,
+    "description": "This is a description for Product 45.",
+    "category": "Books",
+    "subcategory": "Science",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 46,
+    "name": "Product 46",
+    "price": 47.99,
+    "description": "This is a description for Product 46.",
+    "category": "Electronics",
+    "subcategory": "TVs",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 47,
+    "name": "Product 47",
+    "price": 39.99,
+    "description": "This is a description for Product 47.",
+    "category": "Beauty",
+    "subcategory": "Fragrances",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 48,
+    "name": "Product 48",
+    "price": 43.99,
+    "description": "This is a description for Product 48.",
+    "category": "Home & Kitchen",
+    "subcategory": "Bathroom",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 49,
+    "name": "Product 49",
+    "price": 23.99,
+    "description": "This is a description for Product 49.",
+    "category": "Fashion",
+    "subcategory": "Underwear",
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 50,
+    "name": "Product 50",
+    "price": 46.99,
+    "description": "This is a description for Product 50.",
+    "category": "Sports",
+    "subcategory": "Winter Sports",
+    "imageUrl": "https://via.placeholder.com/150"
+  }
+]
