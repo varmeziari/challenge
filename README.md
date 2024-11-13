@@ -94,3 +94,8 @@ Your task is to build each of these pages based on the requirements outlined bel
    ```bash
    npm install
 4. Open http://localhost:3000 to view the app in the browser.
+
+
+## Version Control Instructions
+
+- **Fork the Repository**: Please fork the project repository to your GitHub account, create a branch (e.g., `feature/your-feature-name`), and commit your changes to your forked repository.
