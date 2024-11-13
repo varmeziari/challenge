@@ -10,8 +10,7 @@ This project contains three main pages:
 
 1. **Home Page**
 2. **Products Page**
-3. **Sellers Page**
-4. **User Cart Page**
+3. **User Cart Page**
 
 
 Your task is to build each of these pages based on the requirements outlined below.
@@ -41,16 +40,7 @@ Your task is to build each of these pages based on the requirements outlined bel
       - **Responsive Layout**:
          - For Desktop, display products in a **4-column grid**.
          - For smaller screens, adjust to fit as many product cards per row as possible without breaking the layout.
-   - **Sellers Page**: 
-      - Display a list of sellers using the `Sellers.json` data provided.
-      - Each seller should show their name, location, rating, total products, and a profile placeholder image.
-      - **Page Layout**:
-         - Arrange the list of seller cards in a **2-column grid** on larger screens, and adjust to a single column on smaller screens as needed for responsiveness.
-      - **Card Layout**:
-         - Each card should have a **30%-70% split** layout:
-            - **Left (40%)**: Display the seller's profile image.
-            - **Right (60%)**: Display the seller's name, location, rating, total products, and a brief description text about the seller. (you can use lorem ipsum it is not important what the text is)
-       
+  
    - **User Cart Page**:
       - When users click on the Cart button in the header, they should be taken to a **User Cart Page**.
       - The User Cart Page should display a list of items that the user has added to the cart.
@@ -69,20 +59,6 @@ Your task is to build each of these pages based on the requirements outlined bel
    - Use the mock data files `ProductList.json` and `Sellers.json` provided.
    - No need for backend data fetching—load data directly from these JSON files.
 
----
-
-## Optional: If You Finish the Required Tasks Sooner
-
-- **Cart Button with Product Count**: 
-   - Add functionality to allow users to remove items from the cart or update the quantity of each product in the cart.
-   - Display the total count of items added to the cart on the Cart button in the header.
-   - On the Products page, show the current quantity of each item that’s been added to the cart within each product card.
-
-- **Creativity**: Feel free to add subtle animations, transitions, or any other design enhancements using Tailwind's utilities.
-
-- **Usability**: Implement user-friendly features like hover effects, clickable product and seller cards, etc.
-
----
 
 ## Getting Started
 
