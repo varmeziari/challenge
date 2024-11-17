@@ -13,35 +13,36 @@ export default function CartCard({ item, index }: Props) {
   const { RemoveProduct } = useCart();
 
   return (
-    <div className="my-1 bg-blue-200 rounded-xl p-6 flex flex-row gap-8 items-center justify-start shadow-lg">
-      <h1 className="text-2xl">{index + 1}</h1>
-
-      <img
-        src={item.product.imageUrl}
-        alt={item.product.name}
-        className="w-24 h-24 rounded-full object-cover border-2 border-gray-300 shadow-md"
-      />
-      <h1 className="text-2xl">{item.product.name}</h1>
-      <div className="flex flex-col border border-red-700 p-3">
-        <p className="border-b border-red-700">Fee ($)</p>
-        <p className="text-center">{item.product.price}</p>
-      </div>
-      <div className="flex flex-col border border-red-700 p-3">
-        <p className="border-b border-red-700">Quantity</p>
-        <p className="text-center">{item.quantity}</p>
-      </div>
-      <div className="flex flex-col border border-red-700 p-3">
-        <p className="border-b border-red-700">Total Price ($)</p>
-        <p className="text-center">{item.quantity * item.product.price}</p>
-      </div>
-      <button>
+    <div className="flex flex-col sm:flex-row sm:justify-between shadow-lg w-[90vw] sm:w-[75vw] px-5 py-4 items-start sm:items-center mt-5 space-y-4 sm:space-y-0">
+      <div className="flex flex-col lg:flex-row items-center gap-4 w-full sm:w-[35%] pl-0 sm:pl-6">
         <img
-          src="/del.svg"
-          alt=""
-          className="w-24 h-24 rounded-full object-cover border-2 border-gray-300 shadow-md"
-          onClick={() => RemoveProduct(item.product.id)}
+          src={item.product.imageUrl}
+          alt={item.product.name}
+          className="w-[100px] h-[57px] object-scale-down shadow-md"
         />
-      </button>
+        <h1 className="text-lg sm:text-2xl text-center lg:text-left">
+          {item.product.name}
+        </h1>
+      </div>
+      <div className="w-full sm:w-[20%] text-center sm:text-left pl-0 sm:pl-6">
+        ${item.product.price}
+      </div>
+      <div className="w-full sm:w-[20%] text-center sm:text-left pl-0 sm:pl-6">
+        {item.quantity}
+      </div>
+      <div className="w-full sm:w-[20%] text-center sm:text-left pl-0 sm:pl-6">
+        ${item.quantity * item.product.price}
+      </div>
+      <div className="w-full sm:w-[5%] flex justify-center">
+        <button>
+          <img
+            src="/del.svg"
+            alt="Remove"
+            className="w-9 h-9"
+            onClick={() => RemoveProduct(item.product.id)}
+          />
+        </button>
+      </div>
     </div>
   );
 }

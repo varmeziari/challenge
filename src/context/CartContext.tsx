@@ -25,7 +25,7 @@ export const useCart = () => useContext(CartContext);
 export const CartProvider = ({ children }: { children: React.ReactNode }) => {
   // console.log("in CartProvider...");
   const [cart, setCart] = useState<CartItemType[]>(() => {
-    console.log("in loading carts...");
+    // console.log("in loading carts...");
     const savedCart = localStorage.getItem("cart");
     return savedCart ? JSON.parse(savedCart) : [];
   });
