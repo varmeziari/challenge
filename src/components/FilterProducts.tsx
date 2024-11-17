@@ -22,8 +22,8 @@ export default function FilterProducts({ data }: Props) {
       : data.filter((item) => item.category === filterCat);
 
   return (
-    <div className="flex min-h-screen pt-20 px-8 flex-col">
-      <div className="p-4 flex flex-row justify-center items-center gap-10 mt-20">
+    <div className="flex min-h-screen pt-20 px-8 flex-col bg-blue-50">
+      <div className="p-4 flex flex-row justify-center items-center gap-10 mt-20 ">
         <h1 className="text-xl font-semibold ">Filter List by Category</h1>
 
         <select
@@ -39,8 +39,8 @@ export default function FilterProducts({ data }: Props) {
         </select>
       </div>
 
-      <div className="container mx-auto mt-5">
-        <div className="grid lg:grid-cols-4 gap-6 md:grid-cols-3">
+      <div className="flex justify-center mx-auto mt-5">
+        <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-3 lg:gap-16 xl:grid-cols-4 xl:gap-10">
           {filterData.map((product: ProductType) => (
             <ProductCard key={product.id} product={product} />
           ))}

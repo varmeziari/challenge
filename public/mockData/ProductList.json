@@ -6,7 +6,7 @@
     "description": "This is a description for Product 1.",
     "category": "Electronics",
     "subcategory": "Headphones",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "description": "This is a description for Product 2.",
     "category": "Electronics",
     "subcategory": "Accessories",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/300"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "description": "This is a description for Product 3.",
     "category": "Home & Kitchen",
     "subcategory": "Kitchenware",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 4,
@@ -42,7 +42,7 @@
     "description": "This is a description for Product 5.",
     "category": "Fashion",
     "subcategory": "Clothing",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 6,
@@ -60,7 +60,7 @@
     "description": "This is a description for Product 7.",
     "category": "Books",
     "subcategory": "Fiction",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "description": "This is a description for Product 8.",
     "category": "Electronics",
     "subcategory": "Laptops",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "description": "This is a description for Product 9.",
     "category": "Beauty",
     "subcategory": "Hair Care",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "description": "This is a description for Product 10.",
     "category": "Home & Kitchen",
     "subcategory": "Decor",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "description": "This is a description for Product 11.",
     "category": "Toys",
     "subcategory": "Educational",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "description": "This is a description for Product 12.",
     "category": "Electronics",
     "subcategory": "Smartphones",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "description": "This is a description for Product 13.",
     "category": "Fashion",
     "subcategory": "Shoes",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "description": "This is a description for Product 14.",
     "category": "Sports",
     "subcategory": "Outdoor",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
     "description": "This is a description for Product 15.",
     "category": "Books",
     "subcategory": "Non-Fiction",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
     "description": "This is a description for Product 16.",
     "category": "Electronics",
     "subcategory": "Tablets",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 17,
@@ -150,7 +150,7 @@
     "description": "This is a description for Product 17.",
     "category": "Fashion",
     "subcategory": "Accessories",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "description": "This is a description for Product 18.",
     "category": "Beauty",
     "subcategory": "Makeup",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
     "description": "This is a description for Product 19.",
     "category": "Home & Kitchen",
     "subcategory": "Furniture",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 20,
@@ -177,7 +177,7 @@
     "description": "This is a description for Product 20.",
     "category": "Books",
     "subcategory": "Children's Books",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 21,
@@ -186,7 +186,7 @@
     "description": "This is a description for Product 21.",
     "category": "Fashion",
     "subcategory": "Jewelry",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 22,
@@ -195,7 +195,7 @@
     "description": "This is a description for Product 22.",
     "category": "Beauty",
     "subcategory": "Perfume",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 23,
@@ -204,7 +204,7 @@
     "description": "This is a description for Product 23.",
     "category": "Home & Kitchen",
     "subcategory": "Bedding",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 24,
@@ -213,7 +213,7 @@
     "description": "This is a description for Product 24.",
     "category": "Electronics",
     "subcategory": "Cameras",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 25,
@@ -222,7 +222,7 @@
     "description": "This is a description for Product 25.",
     "category": "Sports",
     "subcategory": "Indoor",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 26,
@@ -231,7 +231,7 @@
     "description": "This is a description for Product 26.",
     "category": "Toys",
     "subcategory": "Action Figures",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 27,
@@ -240,7 +240,7 @@
     "description": "This is a description for Product 27.",
     "category": "Books",
     "subcategory": "Fantasy",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 28,
@@ -249,7 +249,7 @@
     "description": "This is a description for Product 28.",
     "category": "Electronics",
     "subcategory": "Drones",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 29,
@@ -258,7 +258,7 @@
     "description": "This is a description for Product 29.",
     "category": "Beauty",
     "subcategory": "Body Care",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 30,
@@ -267,7 +267,7 @@
     "description": "This is a description for Product 30.",
     "category": "Home & Kitchen",
     "subcategory": "Appliances",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 31,
@@ -276,7 +276,7 @@
     "description": "This is a description for Product 31.",
     "category": "Fashion",
     "subcategory": "Outerwear",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 32,
@@ -285,7 +285,7 @@
     "description": "This is a description for Product 32.",
     "category": "Sports",
     "subcategory": "Running",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 33,
@@ -294,7 +294,7 @@
     "description": "This is a description for Product 33.",
     "category": "Books",
     "subcategory": "Self-Help",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 34,
@@ -303,7 +303,7 @@
     "description": "This is a description for Product 34.",
     "category": "Electronics",
     "subcategory": "Wearables",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 35,
@@ -312,7 +312,7 @@
     "description": "This is a description for Product 35.",
     "category": "Beauty",
     "subcategory": "Nail Care",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 36,
@@ -321,7 +321,7 @@
     "description": "This is a description for Product 36.",
     "category": "Home & Kitchen",
     "subcategory": "Lighting",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 37,
@@ -330,7 +330,7 @@
     "description": "This is a description for Product 37.",
     "category": "Fashion",
     "subcategory": "Hats",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 38,
@@ -339,7 +339,7 @@
     "description": "This is a description for Product 38.",
     "category": "Sports",
     "subcategory": "Cycling",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 39,
@@ -348,7 +348,7 @@
     "description": "This is a description for Product 39.",
     "category": "Books",
     "subcategory": "History",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 40,
@@ -357,7 +357,7 @@
     "description": "This is a description for Product 40.",
     "category": "Electronics",
     "subcategory": "Gaming",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 41,
@@ -366,7 +366,7 @@
     "description": "This is a description for Product 41.",
     "category": "Beauty",
     "subcategory": "Sun Care",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 42,
@@ -375,7 +375,7 @@
     "description": "This is a description for Product 42.",
     "category": "Home & Kitchen",
     "subcategory": "Storage",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 43,
@@ -384,7 +384,7 @@
     "description": "This is a description for Product 43.",
     "category": "Fashion",
     "subcategory": "Bags",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 44,
@@ -393,7 +393,7 @@
     "description": "This is a description for Product 44.",
     "category": "Sports",
     "subcategory": "Swimming",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 45,
@@ -402,7 +402,7 @@
     "description": "This is a description for Product 45.",
     "category": "Books",
     "subcategory": "Science",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 46,
@@ -411,7 +411,7 @@
     "description": "This is a description for Product 46.",
     "category": "Electronics",
     "subcategory": "TVs",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 47,
@@ -420,7 +420,7 @@
     "description": "This is a description for Product 47.",
     "category": "Beauty",
     "subcategory": "Fragrances",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 48,
@@ -429,7 +429,7 @@
     "description": "This is a description for Product 48.",
     "category": "Home & Kitchen",
     "subcategory": "Bathroom",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 49,
@@ -438,7 +438,7 @@
     "description": "This is a description for Product 49.",
     "category": "Fashion",
     "subcategory": "Underwear",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   },
   {
     "id": 50,
@@ -447,6 +447,6 @@
     "description": "This is a description for Product 50.",
     "category": "Sports",
     "subcategory": "Winter Sports",
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/256x145"
   }
 ]

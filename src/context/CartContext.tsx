@@ -7,14 +7,14 @@ import { createContext, useContext, useState } from "react";
 type cartContextType = {
   selected: number;
   cart: CartItemType[];
-  Add2Cart: (product: ProductType, quan: number) => void;
+  UpdateCart: (product: ProductType, quan: number) => void;
   RemoveProduct: (id: number) => void;
 };
 
 const cartContextDefaultValues: cartContextType = {
   selected: 0,
   cart: [],
-  Add2Cart: (product: ProductType, quan: number) => {},
+  UpdateCart: (product: ProductType, quan: number) => {},
   RemoveProduct: (id: number) => {},
 };
 
@@ -26,32 +26,43 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
   const [cart, setCart] = useState<CartItemType[]>([]);
   const [selected, setSelected] = useState(0);
 
-  // const ToggleProduct = (pid: number, quan: number) => {
-  //   const item = cart.find((product) => product.id === pid);
+  const UpdateCart = (product: ProductType, quan: number) => {
+    setCart((prevCart) => {
+      const existIndex = prevCart.findIndex(
+        (item) => item.product.id === product.id
+      );
 
-  //   if (item) {
-  //     setCart(cart.filter((item) => item.id !== pid));
-  //     setSelected(selected - item.quantity);
-  //   } else {
-  //     setCart((prevCart) => [...prevCart, { id: pid, quantity: quan }]);
-  //     setSelected(selected + quan);
-  //   }
-  // };
-  const Add2Cart = (product: ProductType, quan: number) => {
-    setCart((prevCart) => [...prevCart, { product: product, quantity: quan }]);
+      if (existIndex !== -1) {
+        const updatedCart = [...prevCart];
+        updatedCart[existIndex] = {
+          ...updatedCart[existIndex],
+          quantity: updatedCart[existIndex].quantity + quan,
+        };
+        return updatedCart;
+      } else {
+        // If the product doesn't exist, add it to the cart
+        return [...prevCart, { product: product, quantity: 1 }];
+      }
+    });
     setSelected(selected + quan);
+    // console.log("Cart:", cart);
+    console.log(
+      "Selected: ",
+      selected,
+      " quan: ",
+      quan,
+      "new selected: ",
+      selected + quan
+    );
   };
   const RemoveProduct = (pid: number) => {
     const Selected2Remove = cart.find((item) => item.product.id === pid) || {
       product: null,
       quantity: 0,
     };
-
-    setCart(cart.filter((item) => item.product.id !== pid));
-    setSelected(selected - Selected2Remove.quantity);
   };
   return (
-    <CartContext.Provider value={{ selected, cart, Add2Cart, RemoveProduct }}>
+    <CartContext.Provider value={{ selected, cart, UpdateCart, RemoveProduct }}>
       {children}
     </CartContext.Provider>
   );

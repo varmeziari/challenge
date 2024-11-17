@@ -9,72 +9,67 @@ interface ProductProps {
 }
 
 export default function ProductCard({ product }: ProductProps) {
-  const [quan, setQuan] = useState(1);
+  const { cart, UpdateCart } = useCart();
 
-  const { cart, Add2Cart, RemoveProduct } = useCart();
+  const [quan, setQuan] = useState(
+    cart.find((cartItem) => cartItem.product.id === product.id)?.quantity || 0
+  );
+
+  const TotalPrice = quan * product.price;
+  const bgClassName = TotalPrice === 0 ? "bg-gray-300" : "bg-red-400";
+
   return (
-    <div className="bg-gray-100 shadow-lg rounded-lg boder border-slate-300 p-6">
-      <div className="flex justify-center">
+    <div className="w-[266px] h-[312px] bg-white shadow-lg rounded-[20px] p-[5px] flex flex-col items-start ">
+      <div className="w-[256px] h-[145px]">
         <img
           src={product.imageUrl}
-          alt={product.name}
-          className="h-48 object-cover"
+          alt=""
+          className="rounded-[20px] object-scale-down w-[256px] h-[145px]"
         />
       </div>
-      <div className="p-4">
-        <h3 className="text-lg font-semibold text-gray-800">{product.name}</h3>
+      <div className="p-2">
+        <p className="text-lg font-semibold text-gray-800">{product.name}</p>
         <p className="text-sm text-gray-600">
           {product.category} / {product.subcategory}
         </p>
-        <p className="text-xl font-bold text-gray-800 mt-2">
-          ${product.price.toFixed(2)}
-        </p>
 
-        {cart.some((item) => item.product.id === product.id) ? (
-          <div
-            className="bg-yellow-100 mt-4 p-4 flex flex-row justify-between cursor-pointer hover:bg-yellow-300 select-none"
-            onClick={() => RemoveProduct(product.id)}
-          >
-            <p>Remove from Cart</p>
-            <img src="/remove1.svg" alt="" width={28} />
+        <p className="text-red-500 text-lg font-semibold">${product.price}</p>
+      </div>
+      <div className="w-full flex p-2 justify-between">
+        <div className="rounded-lg flex bg-gray-400 items-center h-8">
+          <button className="w-8 h-8  ">
+            <p
+              className="font-bold"
+              onClick={() => {
+                if (quan > 0) {
+                  UpdateCart(product, -1);
+                  setQuan(quan - 1);
+                }
+              }}
+            >
+              -
+            </p>
+          </button>
+          <div className=" border-x-2 w-10 h-8 border-gray-600 text-center flex flex-col justify-center ">
+            {quan}
           </div>
-        ) : (
-          <div className="bg-gray-200 mt-4 p-4 flex flex-row justify-between  hover:bg-gray-400 select-none">
-            <div className="flex flex-row flex-start">
-              <img
-                src="/minus.svg"
-                alt=""
-                width={28}
-                onClick={() => {
-                  if (quan > 1) setQuan(quan - 1);
-                }}
-                className="cursor-pointer"
-              />
-              <p className="border-2 border-black rounded-full px-3 py-1">
-                {quan}
-              </p>
-              <img
-                src="/plus.svg"
-                alt=""
-                width={28}
-                onClick={() => {
-                  if (quan < 9) setQuan(quan + 1);
-                }}
-                className="cursor-pointer"
-              />
-            </div>
-            <div className="flex flex-row flex-start items-center">
-              <img
-                src="/add1.svg"
-                alt=""
-                width={28}
-                onClick={() => Add2Cart(product, quan)}
-                className="cursor-pointer"
-              />
-              <p className="ml-2">${(product.price * quan).toFixed(2)}</p>
-            </div>
-          </div>
-        )}
+          <button className="w-8">
+            <p
+              className="font-bold"
+              onClick={() => {
+                UpdateCart(product, 1);
+                setQuan(quan + 1);
+              }}
+            >
+              +
+            </p>
+          </button>
+        </div>
+        <div
+          className={`text-white w-24 flex justify-end rounded-lg items-center ${bgClassName}`}
+        >
+          ${TotalPrice}
+        </div>
       </div>
     </div>
   );
