@@ -2,7 +2,7 @@
 
 import { CartItemType } from "@/types/Cart";
 import { ProductType } from "@/types/Product";
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 
 type cartContextType = {
   selected: number;
@@ -23,8 +23,23 @@ const CartContext = createContext<cartContextType>(cartContextDefaultValues);
 export const useCart = () => useContext(CartContext);
 
 export const CartProvider = ({ children }: { children: React.ReactNode }) => {
-  const [cart, setCart] = useState<CartItemType[]>([]);
-  const [selected, setSelected] = useState(0);
+  // console.log("in CartProvider...");
+  const [cart, setCart] = useState<CartItemType[]>(() => {
+    console.log("in loading carts...");
+    const savedCart = localStorage.getItem("cart");
+    return savedCart ? JSON.parse(savedCart) : [];
+  });
+
+  const [selected, setSelected] = useState(() => {
+    // console.log("in loading selected...");
+    const savedSelected = localStorage.getItem("selected");
+    return savedSelected ? parseInt(savedSelected) : 0;
+  });
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart));
+    localStorage.setItem("selected", selected.toString());
+    // console.log("Saving to localStorage:", cart);
+  }, [cart]);
 
   const UpdateCart = (product: ProductType, quan: number) => {
     setCart((prevCart) => {
@@ -40,26 +55,18 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
         };
         return updatedCart;
       } else {
-        // If the product doesn't exist, add it to the cart
         return [...prevCart, { product: product, quantity: 1 }];
       }
     });
     setSelected(selected + quan);
-    // console.log("Cart:", cart);
-    console.log(
-      "Selected: ",
-      selected,
-      " quan: ",
-      quan,
-      "new selected: ",
-      selected + quan
-    );
   };
   const RemoveProduct = (pid: number) => {
     const Selected2Remove = cart.find((item) => item.product.id === pid) || {
       product: null,
       quantity: 0,
     };
+    setCart(cart.filter((item) => item.product.id !== pid));
+    setSelected(selected - Selected2Remove.quantity);
   };
   return (
     <CartContext.Provider value={{ selected, cart, UpdateCart, RemoveProduct }}>
